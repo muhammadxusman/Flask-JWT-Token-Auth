@@ -6,7 +6,7 @@ from flask_jwt_extended import create_access_token, JWTManager
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'SUPER-SECRET-KEY'
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:usman0336@localhost:3306/auth"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:usman123@localhost:3306/auth"
 
 db = SQLAlchemy(app)
 api = Api(app)
